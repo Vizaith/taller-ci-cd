@@ -27,3 +27,6 @@ jobs:
             exit 1
           fi
             echo "Se encontró app.js. Continuando con el workflow..."
+
+      - name: Ejecutar pruebas
+        run: npm test
